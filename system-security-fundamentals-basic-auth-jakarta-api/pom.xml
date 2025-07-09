@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.tackr</groupId>
+        <artifactId>system-security-fundamentals</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>system-security-fundamentals-basic-jakarta-api</artifactId>
+    <name>System Security Fundamentals - Basic Jakarta EE API</name>
+    <url>http://maven.apache.org</url>
+    <packaging>war</packaging>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-web-api</artifactId>
+            <version>10.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>basic-auth-jakarta-api</finalName>
+    </build>
+
+</project>
