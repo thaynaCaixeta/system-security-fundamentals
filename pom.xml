@@ -10,5 +10,6 @@
   <modules>
     <module>system-security-fundamentals-basic-auth-manual</module>
     <module>system-security-fundamentals-basic-auth-jakarta-api</module>
+      <module>system-security-fundamentals-apache-shiro</module>
   </modules>
 </project>
