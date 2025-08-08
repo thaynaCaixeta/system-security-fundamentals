@@ -12,5 +12,8 @@
     <module>system-security-fundamentals-basic-auth-jakarta-api</module>
       <module>system-security-fundamentals-apache-shiro</module>
       <module>system-security-fundamentals-oauth2-gcp-example</module>
+    <module>system-security-fundamentals-ldap-example</module>
+      <module>system-security-fundamentals-hash-with-salt-example</module>
+      <module>system-security-fundamentals-db-as-identitystore-example</module>
   </modules>
 </project>

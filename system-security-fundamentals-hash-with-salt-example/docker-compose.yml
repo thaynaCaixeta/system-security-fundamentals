@@ -1,0 +1,6 @@
+services:
+  myapp:
+    build: .
+    container_name: hash-with-salt-example
+    ports:
+      - "${PAYARA_HTTP_PORT}:8080"
